@@ -1,0 +1,8 @@
+.container {
+  width: 100%;
+  max-width: 1024px;
+  padding: 0 20px;
+  @include media('<=tablet') {
+    max-width: 768px;
+  }
+}
